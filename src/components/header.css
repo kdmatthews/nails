@@ -1,0 +1,10 @@
+.bg{
+    background-image: url(../assets/header3.png);
+    width: 100vw;
+    height: 35vh;
+    background-size: cover;
+  }
+
+  h1{
+    color: #C9A970;
+  }

@@ -1,11 +1,14 @@
-import header from '../assets/header.jpg';
+import './header.css'
 
 function Header() {
 
 
     return (
       <>
-        <div className="bg"></div>
+        <div className="bg">
+          <h1>Home</h1>
+        </div>
+
       </>
     )
   }
