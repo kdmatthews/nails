@@ -1,0 +1,32 @@
+.service-boxes{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.service-boxes img {
+    width: 9rem;
+    height: 12rem;
+    border-radius: 19rem;
+    margin: .25rem;
+}
+
+.individual-service {
+    background-color: #D8D6C0;
+    margin: 1rem;
+    border-radius: 3.5rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
+
+}
+.individual-service h2 {
+    color: #2A4950;
+}
+.individual-service a{
+    color: #854B5B;
+    text-decoration: none;
+}

@@ -16,6 +16,7 @@ function Navbar(){
             <li><NavLink to='/about'>About</NavLink></li>
             <li><NavLink to='/services'>Services</NavLink></li>
             <li><NavLink to='/contact'>Contact</NavLink></li>
+            <li><NavLink to='/gallery'>Gallery</NavLink></li>
         </ul>
         </nav>
     )
