@@ -1,3 +1,4 @@
+
 .service-boxes{
     display: flex;
     flex-wrap: wrap;
@@ -29,4 +30,39 @@
 .individual-service a{
     color: #854B5B;
     text-decoration: none;
+}
+
+/*service-menu  service-info  service-image */
+
+.service-image img{
+    height: 90%;
+    width: 80%;
+}
+
+
+.service-info{
+    margin: 1rem;
+    grid-area: info;
+}
+
+.service-image{
+    margin: 1rem;
+    grid-area: img;
+    display: grid;
+    justify-content: end;
+
+}
+
+.service-menu{
+    background-color: #2A4950;
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+    grid-template-areas: "info img" ;
+    border: black 0.25px solid;
+
+}
+
+.service-menu h2{
+    color: #854B5B;
+    margin-bottom: .5rem;
 }
