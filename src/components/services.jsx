@@ -16,27 +16,27 @@ function Services() {
         <HashLink to='/services/#manicure'>View Menu</HashLink>
       </section>
       <section className="individual-service">
-        <img src={"../public/vnails2.jpg"} alt="" />
+        <img src={"../public/pedicure.jpg"} alt="" />
         <h2>Pedicure</h2>
         <HashLink to='/services/#pedicure'>View Menu</HashLink>
       </section>
       <section className="individual-service">
-        <img src={'../public/vnails3.jpg'} alt="" />
+        <img src={'../public/massage.jpg'} alt="" />
         <h2>Massage</h2>
         <HashLink to='/services/#massage'>View Menu</HashLink>
       </section>
       <section className="individual-service">
-        <img src={"../public/vnails2.jpg"}  alt="" />
+        <img src={"../public/waxing.jpg"}  alt="" />
         <h2>Waxing</h2>
         <HashLink to='/services/#waxing'>View Menu</HashLink>
       </section>
       <section className="individual-service">
-        <img src={"../public/vnails2.jpg"} alt="" />
+        <img src={"../public/eyelash.jpg"} alt="" />
         <h2>Eyelashes</h2>
         <HashLink to='/services/#eyelashes'>View Menu</HashLink>
       </section>
       <section className="individual-service">
-        <img src={'../public/vnails4.jpg'} alt="" />
+        <img src={'../public/addon.jpg'} alt="" />
         <h2>Add-Ons</h2>
         <HashLink to='/services/#full-set'>View Menu</HashLink>
       </section>
@@ -78,7 +78,7 @@ function Services() {
         <br />
         </div>
         <div className='service-image'>
-          <img src="../public/vnails2.jpg" alt="" />
+          <img src="../public/manicureservice.jpg" alt="" />
         </div>
         </section>
 
@@ -105,7 +105,7 @@ function Services() {
         <p>Enhance your pedicure with custom nail art. Price varies based on design complexity.</p>
         </div>
         <div className='service-image2'>
-          <img src="../public/vnails2.jpg" alt="" />
+          <img src="../public/pedicureservice.jpg" alt="" />
         </div>
 
 
@@ -138,7 +138,7 @@ function Services() {
             <p>A brief but effective massage targeting specific areas of tension, perfect for a quick relaxation break.</p>
         </div>
         <div className='service-image'>
-          <img src="../public/vnails2.jpg" alt="" />
+          <img src="../public/massageservice.jpg" alt="" />
         </div>
         </section>
 
@@ -148,25 +148,25 @@ function Services() {
         <section className="service-menu2" id='waxing'>
         <div className="service-info2">
         <h2>Waxing Services</h2>
-        <h4>Facial Waxing</h4>
-        <p>We offer a variety of options for face waxing. Our teqnitions are trained to be as painless and efficient as possible.</p>
-        <li>Upper Lip - $20</li>
-        <li>Eyebrow Shaping - $20</li>
-        <li>Chin - $15</li>
-        <li>Cheeks -$25</li>
-          <h4>Body Waxing</h4>
-          <p>We offer a variety of options for body waxing. Our teqnitions are trained to be as painless and efficient as possible.</p>
-          <li>Arms - $40</li>
-          <li>Legs - $50</li>
-          <li>Back - $50</li>
-          <li>Chest - $40</li>
-          <li>Stomach - $40</li>
-          <li>Bikini - $50</li>
-    
-
-        </div>
+          <h4>Eyebrow Wax - $15</h4>
+          <p>Shape and define your brows with precision. This service includes trimming and sculpting to enhance your natural brow shape and ensure a clean, polished look.</p>
+          <br />
+          <h4>Upper Lip Wax - $12</h4>
+          <p>Remove unwanted hair from the upper lip area. This quick and effective treatment leaves the skin smooth and free of fine, pesky hairs.</p>
+          <br />
+          <h4>Chin Wax - $12</h4>
+          <p>Target and eliminate unwanted hair on the chin area. This service helps achieve a smooth, even look and is ideal for those struggling with chin hair.</p> <br />
+          <h4>Full Face Wax - $40</h4>
+          <p>Includes waxing of the eyebrows, upper lip, chin, and sideburns. Achieve a flawless finish with this comprehensive treatment that leaves your entire face smooth and hair-free.</p> <br />
+          <h4>Underarm Wax - $20</h4>
+          <p>Keep your underarms smooth and free of hair with this efficient waxing service. Perfect for long-lasting results and reduced hair regrowth.</p><br />
+          <h4>Bikini Wax - $30</h4>
+          <p>A tidy and precise waxing service for the bikini area. Choose this option for a clean and neat look that removes hair outside the swimsuit line.</p><br />
+          <h4>Leg Wax - $60</h4>
+          <p>Enjoy silky smooth legs with a full leg waxing treatment. This service includes the entire leg from the thigh to the ankle, ideal for a sleek, hair-free look.</p><br />
+          </div>
         <div className='service-image2'>
-          <img src="../public/vnails2.jpg" alt="" />
+          <img src="../public/waxingservice.jpg" alt="" />
         </div>
         </section>
 
@@ -176,10 +176,27 @@ function Services() {
         <section className="service-menu" id='eyelashes'>
         <div className="service-info">
         <h2>Eyelash Services</h2>
-        <p>Stuff about Eyelashes</p>
+        <h4>Classic Eyelash Extensions - $120</h4>
+        <p>Enhance your natural lashes with a one-to-one extension technique. Each individual lash is meticulously applied to your natural lashes, creating a subtle, elegant look that adds length and definition.</p>
+        <br />
+        <h4>Volume Eyelash Extension - $150</h4>
+        <p>Achieve a fuller, more dramatic look with this technique. Multiple lightweight extensions are applied to each natural lash, creating a voluminous, glamorous effect perfect for special occasions or a bold everyday look.</p>
+        <br />
+        <h4>Hybrid Eyelash Extensions - $135</h4>
+        <p>A blend of classic and volume techniques. Enjoy the best of both worlds with a mix of individual and voluminous lashes that provide a balanced, textured look with added fullness and length.</p>
+        <br />
+        <h4>Mega Volume Eyelash Extensions - $180</h4>
+        <p>For those who desire the ultimate in drama and density. Ultra-fine extensions are applied in multiple layers to each natural lash, creating a full, lush effect with maximum volume and a striking appearance.</p>
+        <br />
+        <h4>Eyelash Lift and Tint - $80</h4>
+        <p>Lift and curl your natural lashes with a semi-permanent treatment that opens up your eyes and adds definition. Includes a tinting service to darken your lashes, giving them a fuller look without extensions.</p>
+        <br />
+        <h4>Lash Removal - $30</h4>
+        <p>Professional removal of eyelash extensions to ensure your natural lashes are not damaged. Includes a gentle, nourishing treatment to restore and condition your natural lashes.</p>
+        <br />
         </div>
         <div className='service-image'>
-          <img src="../public/vnails2.jpg" alt="" />
+          <img src="../public/eyelashservice.jpg" alt="" />
         </div>
         </section>
 
@@ -196,9 +213,15 @@ function Services() {
         <h4>Anti-Aging Hand/Foot Treatment - $15</h4>
         <p>Includes a specialized treatment to reduce signs of aging and improve skin texture.</p>
         <br />
+        <h4>Hydrating Facial Mask - $20</h4>
+        <p>A deeply hydrating mask applied to your face during any facial service, leaving your skin plump and refreshed.</p><br />
+        <h4>Eye Treatment - $25</h4>
+        <p>Targeted treatment for the delicate under-eye area to reduce puffiness, dark circles, and fine lines.</p><br />
+        <h4>Makeup Application - $50</h4>
+        <p>Professional makeup application for a flawless look, whether for a special occasion or just a touch of glamour.</p><br />
         </div>
         <div className='service-image2'>
-          <img src="../public/vnails2.jpg" alt="" />
+          <img src="../public/additionalservice.jpg" alt="" />
         </div>
         </section>
 
