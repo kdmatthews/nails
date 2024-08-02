@@ -31,6 +31,9 @@
     color: #854B5B;
     text-decoration: none;
 }
+.individual-service a:hover{
+    color:#2A4950;
+}
 
 /*service-menu  service-info  service-image */
 

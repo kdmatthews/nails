@@ -43,7 +43,6 @@ function Services() {
     </article>
     <article >
 
-
       <section className="service-menu" id='manicure'>
         <div className="service-info">
         <h2>Manicure Services</h2>
