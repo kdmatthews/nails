@@ -43,6 +43,7 @@ function Services() {
     </article>
     <article >
 
+
       <section className="service-menu" id='manicure'>
         <div className="service-info">
         <h2>Manicure Services</h2>
@@ -82,8 +83,8 @@ function Services() {
         </section>
 
 
-        <section className="service-menu" id='pedicure'>
-        <div className="service-info">
+        <section className="service-menu2" id='pedicure'>
+        <div className="service-info2">
         <h2>Pedicure Services</h2>
         <h4>Classic Pedicure - $30</h4>
         <p>Pamper your feet with our Classic Pedicure. Includes nail trimming, cuticle care, a relaxing foot soak, and your choice of polish.</p>
@@ -103,7 +104,7 @@ function Services() {
         <h4>Nail Art Add-On - $10+</h4>
         <p>Enhance your pedicure with custom nail art. Price varies based on design complexity.</p>
         </div>
-        <div className='service-image'>
+        <div className='service-image2'>
           <img src="../public/vnails2.jpg" alt="" />
         </div>
 
@@ -144,12 +145,27 @@ function Services() {
 
 
 
-        <section className="service-menu" id='waxing'>
-        <div className="service-info">
+        <section className="service-menu2" id='waxing'>
+        <div className="service-info2">
         <h2>Waxing Services</h2>
-        <p>Stuff about Waxing</p>
+        <h4>Facial Waxing</h4>
+        <p>We offer a variety of options for face waxing. Our teqnitions are trained to be as painless and efficient as possible.</p>
+        <li>Upper Lip - $20</li>
+        <li>Eyebrow Shaping - $20</li>
+        <li>Chin - $15</li>
+        <li>Cheeks -$25</li>
+          <h4>Body Waxing</h4>
+          <p>We offer a variety of options for body waxing. Our teqnitions are trained to be as painless and efficient as possible.</p>
+          <li>Arms - $40</li>
+          <li>Legs - $50</li>
+          <li>Back - $50</li>
+          <li>Chest - $40</li>
+          <li>Stomach - $40</li>
+          <li>Bikini - $50</li>
+    
+
         </div>
-        <div className='service-image'>
+        <div className='service-image2'>
           <img src="../public/vnails2.jpg" alt="" />
         </div>
         </section>
@@ -168,8 +184,8 @@ function Services() {
         </section>
 
 
-        <section className="service-menu" id='full-set'>
-        <div className="service-info">
+        <section className="service-menu2" id='full-set'>
+        <div className="service-info2">
         <h2>Additional Services</h2>
         <h4>Foot Reflexology - $30</h4>
         <p>Therapeutic foot massage focusing on pressure points</p>
@@ -181,7 +197,7 @@ function Services() {
         <p>Includes a specialized treatment to reduce signs of aging and improve skin texture.</p>
         <br />
         </div>
-        <div className='service-image'>
+        <div className='service-image2'>
           <img src="../public/vnails2.jpg" alt="" />
         </div>
         </section>
