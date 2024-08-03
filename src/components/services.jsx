@@ -42,7 +42,7 @@ function Services() {
       </section>
     </article>
     <article >
-
+<h1>Menu and Pricing</h1>
 
       <section className="service-menu" id='manicure'>
         <div className="service-info">
@@ -52,9 +52,6 @@ function Services() {
         <br />
         <h4>Deluxe Manicure - $35</h4>
         <p>Pamper yourself with our Deluxe service. Enjoy all the benefits of the Classic Manicure plus an exfoliating scrub, a hydrating mask, and a longer hand massage. </p>
-        <br />
-        <h4>Spa Manicure - $45</h4>
-        <p>Indulge in luxury with our Spa Manicure. This treatment includes everything in the Deluxe Manicure, plus a paraffin wax treatment for deep moisturization and a soothing hot towel wrap.</p>
         <br />
         <h4>Gel Manicure - $40</h4>
         <p>Long-lasting and glossy! This manicure includes nail shaping, cuticle care, and a gel polish application that lasts up to two weeks.</p>
@@ -67,14 +64,6 @@ function Services() {
         <br />
         <h4>Fench Manicure - $30</h4>
         <p>A classic look with a chic twist. Includes nail shaping, cuticle care, and a traditional French polish application.</p>
-        <br />
-        <h4>Nail Art Add-On - $10</h4>
-        <p>Add a touch of creativity with custom nail art. Price varies based on design complexity.</p>
-        <br />
-        <h4>Manicure Enhancements</h4>
-        <li>Paraffin Wax Treatment - $10</li>
-        <li>Hot Stone Massage - $15</li>
-        <li>Nail Repair - $5 per nail</li>
         <br />
         </div>
         <div className='service-image'>
@@ -125,9 +114,6 @@ function Services() {
             <h4>Aromatherapy Massage - $80</h4>
             <p>Incorporates essential oils to promote physical and emotional well-being, customized to your preferences.</p>
             <br />
-            <h4>Reflexology - $65</h4>
-            <p>Focuses on pressure points in the feet to improve overall health and well-being.</p>
-              <br />
             <h4>Couples Massage - $140</h4>
             <p>Enjoy a relaxing massage with a partner in the same room, with side-by-side tables and therapists.</p>
               <br />

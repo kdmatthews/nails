@@ -8,7 +8,8 @@ Charcoal: dark blue #2A4950
 .App{
     width: 100%;
     height: 100%;
-    background-color: #2A4950;
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 a:not([href]):before {

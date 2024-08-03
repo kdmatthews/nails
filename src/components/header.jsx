@@ -4,7 +4,7 @@ function Header() {
     return (
       <>
         <div className="bg">
-          <h1>Home</h1>
+         
         </div>
 
       </>

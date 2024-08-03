@@ -1,4 +1,14 @@
 
+main h1{
+    font-size: 50px;
+    color:#854B5B;
+    margin: 2rem;
+    text-decoration: none;
+    padding-bottom: 10px;
+    border-bottom: 3px solid;
+    text-align: center;
+    
+}
 .service-boxes{
     display: flex;
     flex-wrap: wrap;
@@ -8,21 +18,24 @@
 }
 
 .service-boxes img {
-    width: 9rem;
-    height: 12rem;
-    border-radius: 19rem;
+    width: 8rem;
+    height: 10rem;
+    border-radius: 1rem;
     margin: .25rem;
 }
 
 .individual-service {
-    background-color: #D8D6C0;
+    background-color: white;
     margin: 1rem;
     border-radius: 3.5rem;
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     padding-left: 3rem;
     padding-right: 3rem;
-
+    box-shadow: #63636333 0px 2px 8px 0px;
+        &:hover {
+          transform: scale(1.08);
+        }
 }
 .individual-service h2 {
     color: #2A4950;
@@ -67,13 +80,18 @@
 }
 
 .service-menu{
-    background-color: #2c4d55;
+    background-color: white;
     display: grid;
     grid-template-columns: 2fr 1.5fr;
     grid-template-areas: "info img" ;
-    border: #28454b 0.25px solid;
     border-radius: .5rem;
     margin: 5rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    &:hover {
+        transform: scale(1.02);
+      }
 
 }
 
@@ -95,13 +113,17 @@
 }
 
 .service-menu2{
-    background-color: #28454b;
+    background-color: white;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
     display: grid;
     grid-template-columns: 1.5fr 2fr;
     grid-template-areas: "img info" ;
-    border: #2c4d55 0.25px solid;
-    border-radius: .5rem;
     margin: 5rem;
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    &:hover {
+        transform: scale(1.02);
+      }
 
 }
 
