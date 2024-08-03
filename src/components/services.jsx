@@ -11,32 +11,32 @@ function Services() {
       <h1>Services</h1>
     <article className='service-boxes'>
       <section className="individual-service">
-        <img src={'../public/vnails1.jpg'} alt="" />
+        <img src={'../vnails1.jpg'} alt="" />
         <h2>Manicure</h2>
         <HashLink to='/services/#manicure'>View Menu</HashLink>
       </section>
       <section className="individual-service">
-        <img src={"../public/pedicure.jpg"} alt="" />
+        <img src={"../pedicure.jpg"} alt="" />
         <h2>Pedicure</h2>
         <HashLink to='/services/#pedicure'>View Menu</HashLink>
       </section>
       <section className="individual-service">
-        <img src={'../public/massage.jpg'} alt="" />
+        <img src={'../massage.jpg'} alt="" />
         <h2>Massage</h2>
         <HashLink to='/services/#massage'>View Menu</HashLink>
       </section>
       <section className="individual-service">
-        <img src={"../public/waxing.jpg"}  alt="" />
+        <img src={"../waxing.jpg"}  alt="" />
         <h2>Waxing</h2>
         <HashLink to='/services/#waxing'>View Menu</HashLink>
       </section>
       <section className="individual-service">
-        <img src={"../public/eyelash.jpg"} alt="" />
+        <img src={"../eyelash.jpg"} alt="" />
         <h2>Eyelashes</h2>
         <HashLink to='/services/#eyelashes'>View Menu</HashLink>
       </section>
       <section className="individual-service">
-        <img src={'../public/addon.jpg'} alt="" />
+        <img src={'../addon.jpg'} alt="" />
         <h2>Add-Ons</h2>
         <HashLink to='/services/#full-set'>View Menu</HashLink>
       </section>
@@ -78,7 +78,7 @@ function Services() {
         <br />
         </div>
         <div className='service-image'>
-          <img src="../public/manicureservice.jpg" alt="" />
+          <img src="../manicureservice.jpg" alt="" />
         </div>
         </section>
 
@@ -105,7 +105,7 @@ function Services() {
         <p>Enhance your pedicure with custom nail art. Price varies based on design complexity.</p>
         </div>
         <div className='service-image2'>
-          <img src="../public/pedicureservice.jpg" alt="" />
+          <img src="../pedicureservice.jpg" alt="" />
         </div>
 
 
@@ -138,7 +138,7 @@ function Services() {
             <p>A brief but effective massage targeting specific areas of tension, perfect for a quick relaxation break.</p>
         </div>
         <div className='service-image'>
-          <img src="../public/massageservice.jpg" alt="" />
+          <img src="../massageservice.jpg" alt="" />
         </div>
         </section>
 
@@ -166,7 +166,7 @@ function Services() {
           <p>Enjoy silky smooth legs with a full leg waxing treatment. This service includes the entire leg from the thigh to the ankle, ideal for a sleek, hair-free look.</p><br />
           </div>
         <div className='service-image2'>
-          <img src="../public/waxingservice.jpg" alt="" />
+          <img src="../waxingservice.jpg" alt="" />
         </div>
         </section>
 
@@ -196,7 +196,7 @@ function Services() {
         <br />
         </div>
         <div className='service-image'>
-          <img src="../public/eyelashservice.jpg" alt="" />
+          <img src="../eyelashservice.jpg" alt="" />
         </div>
         </section>
 
@@ -221,7 +221,7 @@ function Services() {
         <p>Professional makeup application for a flawless look, whether for a special occasion or just a touch of glamour.</p><br />
         </div>
         <div className='service-image2'>
-          <img src="../public/additionalservice.jpg" alt="" />
+          <img src="../additionalservice.jpg" alt="" />
         </div>
         </section>
 
