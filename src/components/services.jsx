@@ -7,7 +7,7 @@ function Services() {
   return (
     <>
         <Header />
-    <main>
+    <main className='prices'>
       <h1>Services</h1>
     <article className='service-boxes'>
       <section className="individual-service">

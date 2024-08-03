@@ -1,12 +1,19 @@
 import { Link, NavLink } from "react-router-dom";
 import './navbar.css'
 import { useState } from "react";
+import { GiFingernail } from "react-icons/gi";
+
 
 function Navbar(){
     const [menuOpen, setMenuOpen] = useState(false);
     return(
+        <div className="navbar">
         <nav>
-            <Link to='/' className="title">Website</Link>
+            <div className="logo">
+            <Link to='/' className="title">
+               <h1><GiFingernail /> Nailed It!</h1> 
+            </Link>
+            </div>
             <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>
             <span></span>
             <span></span>
@@ -19,6 +26,7 @@ function Navbar(){
             <li><NavLink to='/gallery'>Gallery</NavLink></li>
         </ul>
         </nav>
+        </div>
     )
 }
 

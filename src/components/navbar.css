@@ -1,4 +1,16 @@
 
+.navbar{
+    width: 100vw;
+    position: sticky;
+    top: 0;
+    opacity: .95;
+    z-index: 9;
+}
+.logo h1{
+    font-size: 30px;
+    margin-left: 1rem;
+    font-family: cursive;
+}
 .active{
     background-color: #C9A970;
 }
@@ -10,12 +22,10 @@ nav {
     align-items: center;
     background-color: #2A4950;
     color: #C9A970;
-    position: sticky;
-    top: 0;
+
 }
 
 nav .title {
-    font-size: 1.5rem;
     margin: 1rem;
     font-weight: bold;
     text-decoration: none;
@@ -24,10 +34,13 @@ nav .title {
 
 nav ul {
     display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: .5rem;
 }
 
 nav ul li {
-   list-style: none; 
+   list-style: none;
 }
 
 nav ul li a {
@@ -59,10 +72,11 @@ nav .menu span {
     width: 100%;
     background-color: #854B5B;
     border-radius: 0.2rem;
+    margin-right: 1rem;
 }
 
 
-@media (max-width: 480px) {
+@media (max-width: 600px) {
     nav .menu {
         display: flex;
     }
