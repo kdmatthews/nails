@@ -3,7 +3,6 @@
     width: 100vw;
     position: sticky;
     top: 0;
-    opacity: .95;
     z-index: 9;
 }
 .logo h1{
@@ -20,7 +19,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #2A4950;
+
     color: #C9A970;
 
 }
