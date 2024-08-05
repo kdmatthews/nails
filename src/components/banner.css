@@ -1,0 +1,40 @@
+.image img{
+    max-width: 250px ;
+    height: 15rem;
+    object-fit: cover;
+    padding: 0 .5rem;
+}
+
+.banner-wrapper{
+    overflow: hidden;
+}
+
+.banner-wrapper .wrapper{
+    display: flex;
+    margin: 0;
+
+}
+.banner-wrapper .wrapper .images {
+    display: flex;
+    animation: swipe 30000ms linear infinite;
+}
+
+@keyframes swipe {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+.banner-wrapper{
+    background-color: aliceblue;
+    margin: 1rem;
+}
+
+
+
+
+
