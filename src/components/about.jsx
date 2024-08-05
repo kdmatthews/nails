@@ -4,7 +4,7 @@ import Header from './header'
 function About() {
   return (
     <>
-    <Header />
+    About
     </>
   )
 }

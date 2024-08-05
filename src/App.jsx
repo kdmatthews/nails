@@ -7,12 +7,15 @@ import Contact from './components/contact';
 import Home from './components/home';
 import Navbar from './components/navbar';
 import Gallery from './components/gallery';
+import Header from './components/header';
 
 function App() {
 
 
   return (
     <div className='App'>
+      <Navbar></Navbar>
+      <Header></Header>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />

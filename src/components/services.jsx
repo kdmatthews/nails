@@ -6,7 +6,6 @@ import { HashLink } from 'react-router-hash-link'
 function Services() {
   return (
     <>
-        <Header />
     <main className='prices'>
       <h1>Services</h1>
     <article className='service-boxes'>

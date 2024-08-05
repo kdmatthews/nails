@@ -1,9 +1,9 @@
 import React from 'react'
-import Header from './header'
+
 
 function Home() {
   return (
-    <div><Header></Header>
+    <div>
     <p>Home</p></div>
 
   )
