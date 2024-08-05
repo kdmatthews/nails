@@ -7,7 +7,6 @@ function GalleryScroll() {
   return (
     <div className='gallery'>
     <Banner images={images} speed={20000}/>
-    <h1>Gallery</h1>
 
 
 
