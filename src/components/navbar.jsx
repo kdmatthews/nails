@@ -11,7 +11,7 @@ function Navbar(){
         <nav>
             <div className="logo">
             <Link to='/' className="title">
-               <h1><GiFingernail /> Nailed It!</h1> 
+               <h1> Nailed It!</h1>
             </Link>
             </div>
             <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>

@@ -9,10 +9,9 @@ function Home() {
   return (
     <div>
       <GalleryScroll />
-      <About />
       <Services />
       <Contact />
-    <p>Home</p></div>
+</div>
 
   )
 }

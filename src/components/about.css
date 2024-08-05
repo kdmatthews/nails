@@ -10,11 +10,12 @@
 
 .bcg{
     background-image: url(../nailpolish.jpg);
-    width: 100vw;
+    width: 97%;
     height: 1000px;
+    margin-left: 1rem;
     background-size: cover;
-  }
-
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+}
 .aboutlogo h1{
     font-size: 80px;
     margin-top: 3.5rem;
