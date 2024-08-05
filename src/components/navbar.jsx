@@ -11,7 +11,8 @@ function Navbar(){
         <nav>
             <div className="logo">
             <Link to='/' className="title">
-               <h1> Nailed It!</h1>
+            <h1>Nailed It!</h1>
+                <img src="./logoicon.png" alt="" />
             </Link>
             </div>
             <div className="menu" onClick={() => setMenuOpen(!menuOpen)}>

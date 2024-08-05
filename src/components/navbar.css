@@ -10,6 +10,16 @@
     margin-left: 1rem;
     font-family: cursive;
 }
+.title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo img{
+    width: 4rem;
+    margin-left: .5rem;
+}
 .active{
     background-color: #C9A970;
 }

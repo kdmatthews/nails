@@ -6,7 +6,7 @@ import './gallery.css'
 function GalleryScroll() {
   return (
     <div className='gallery'>
-    <Banner images={images} speed={20000}/>
+    <Banner images={images} speed={80000}/>
 
 
 

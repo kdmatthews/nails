@@ -7,7 +7,7 @@
     justify-content: center;
     align-items: center;
 }
-
+/*
 .bcg{
     background-image: url(../nailpolish.jpg);
     width: 97%;
@@ -16,6 +16,7 @@
     background-size: cover;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
+*/
 .aboutlogo h1{
     font-size: 80px;
     margin-top: 3.5rem;
