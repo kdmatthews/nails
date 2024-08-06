@@ -99,9 +99,6 @@
     padding-bottom: 5rem;
     position: relative;
     z-index: 2;
-    &:hover {
-        transform: scale(1.01);
-      }
 
 }
 .service-menu2{
@@ -115,9 +112,6 @@
     box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
     position: relative;
     z-index: 2;
-    &:hover {
-        transform: scale(1.01);
-      }
 
 }
 
