@@ -5,8 +5,9 @@ import GalleryScroll from './galleryscroll'
 function gallery() {
   return (
     <div className='gallery'>
-    <GalleryScroll></GalleryScroll>
+      <div className='headings'>
     <h1>Gallery</h1>
+    </div>
     <div className='imagegrid'>
         <img src="../vnails1.jpg" alt="" />
         <img src="../vnails2.jpg" alt="" />

@@ -2,11 +2,18 @@
 .prices h1{
     font-size: 50px;
     color:#854B5B;
-    margin: 2rem;
     text-decoration: none;
     padding-bottom: 10px;
     border-bottom: 3px solid;
+    display: inline;
     text-align: center;
+    text-shadow: 2px 2px 2px #ddafb2;
+}
+.headings{
+    display: flex;
+    justify-content: center;
+    margin-top: 1rem;
+    padding-top: 1.5rem;
 }
 .service-boxes{
     display: flex;

@@ -6,6 +6,7 @@ text-decoration: none;
 padding-bottom: 10px;
 border-bottom: 3px solid;
 text-align: center;
+text-shadow: 3px 3px 3px #ddafb2;
 }
 
 .imagegrid img{

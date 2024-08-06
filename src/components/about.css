@@ -1,33 +1,64 @@
 .aboutlogo{
     size: large;
-    font-family: cursive;
     color:#854B5B;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: rgba(133, 75, 91, 0.4) 5px 5px, rgba(133, 75, 91, 0.3) 10px 10px, rgba(133, 75, 91, 0.2) 15px 15px, rgba(133, 75, 91, 0.1) 20px 20px, rgba(133, 75, 91, 0.05) 25px 25px;
 }
-/*
-.bcg{
-    background-image: url(../nailpolish.jpg);
-    width: 97%;
-    height: 1000px;
-    margin-left: 1rem;
-    background-size: cover;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 15px 25px, rgba(0, 0, 0, 0.05) 0px 5px 10px;
+.about-words{
+    margin: 1rem;
+    padding: 2rem;
+    box-shadow: rgba(133, 75, 91, 0.4) -5px 5px, rgba(133, 75, 91, 0.3) -10px 10px, rgba(133, 75, 91, 0.2) -15px 15px, rgba(133, 75, 91, 0.1) -20px 20px, rgba(133, 75, 91, 0.05) -25px 25px;
 }
-*/
-.aboutlogo h1{
-    font-size: 80px;
-    margin-top: 3.5rem;
+.aboutlogo h2{
+    text-decoration: none;
+    padding-bottom: 10px;
+    border-bottom: 3px solid;
+    text-align: center;
+    font-size: 30px;
+    text-shadow: 3px 3px 3px #ddafb2;
+}
+.aboutlogo img{
+    width: 40vw;
 }
 
-.aboutlogo h2{
-    font-size: 30px;
-}
 
 .aboutlogo p{
     font-size: 20px;
     margin: 1rem;
     text-align: center;
+}
+
+.about-words a{
+    background-color: #ddafb2;
+    border-radius: .5rem;
+    padding: .5rem;
+    text-decoration: none;
+    color: black;
+    display: block;
+    margin: auto;
+    width: 8rem;
+    font-size: large;
+    text-align: center;
+    cursor: pointer;
+    color: #854B5B;
+    font-weight: 700;
+}
+
+.about-words a:hover{
+    border: #854B5B 2px solid;
+}
+
+@media (max-width: 950px){
+    .aboutlogo{
+        display: flex;
+        flex-direction: column;
+    }
+    .about-words{
+        box-shadow: rgb(133, 75, 91) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    }
 }

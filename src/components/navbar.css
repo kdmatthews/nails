@@ -29,7 +29,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: white;
+    background-color: #f5e8e8;
     color: #C9A970;
 
 }
@@ -62,7 +62,7 @@ nav ul li a {
 }
 
 nav ul li a:not(.active):hover {
-    background-color:#D8D6C0 ;
+    background-color:#e2d0b1 ;
 }
 
 nav .menu {
@@ -81,13 +81,13 @@ nav .menu span {
     width: 100%;
     background-color: #854B5B;
     border-radius: 0.2rem;
-    margin-right: 1rem;
 }
 
 
 @media (max-width: 600px) {
     nav .menu {
         display: flex;
+        margin: 1.5rem;
     }
 
     nav {

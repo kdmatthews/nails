@@ -8,7 +8,8 @@ import Contact from './contact'
 function Home() {
   return (
     <div>
-      <GalleryScroll />
+  
+      <About />
       <Services />
       <Contact />
 </div>

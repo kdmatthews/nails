@@ -7,7 +7,9 @@ function Services() {
   return (
     <>
     <main className='prices'>
+      <div className='headings'>
       <h1>Services</h1>
+      </div>
     <article className='service-boxes'>
       <section className="individual-service">
         <img src={'../vnails1.jpg'} alt="" />
@@ -41,7 +43,9 @@ function Services() {
       </section>
     </article>
     <article >
+      <div className='headings'>
 <h1>Menu and Pricing</h1>
+</div>
 
       <section className="service-menu" id='manicure'>
         <div className="service-info">
