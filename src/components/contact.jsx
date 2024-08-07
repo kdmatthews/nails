@@ -4,7 +4,8 @@ import SimpleMap from './map'
 
 function contact() {
   return (
-    <div><h1>Contact</h1>
+    <div>
+      <div className='headings'>Contact</div>
    <SimpleMap></SimpleMap>
     </div>
   )
