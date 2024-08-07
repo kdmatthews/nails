@@ -1,10 +1,13 @@
 import React from 'react'
+import SimpleMap from './map'
 
-function Contact() {
+
+function contact() {
   return (
-    <div>Contact</div>
+    <div><h1>Contact</h1>
+   <SimpleMap></SimpleMap>
+    </div>
   )
 }
 
-export default Contact
-
+export default contact
