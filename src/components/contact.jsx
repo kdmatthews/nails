@@ -6,7 +6,7 @@ function contact() {
   return (
     <div>
       <div className='headings'>Contact</div>
-   <SimpleMap></SimpleMap>
+   
     </div>
   )
 }
