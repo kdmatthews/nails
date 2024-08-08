@@ -14,8 +14,8 @@ import ScrollToTop from './components/scroll';
 
 function App() {
 
-
   return (
+
     <div className='App'>
       <ScrollToTop />
       <Navbar></Navbar>
