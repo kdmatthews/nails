@@ -19,6 +19,7 @@ function App() {
     <div className='App'>
       <ScrollToTop />
       <Navbar></Navbar>
+      <div className='Main-Container'>
       <GalleryScroll></GalleryScroll>
       <Routes>
         <Route path="/" element={<Home />} />
@@ -27,6 +28,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
+      </div>
       <Footer></Footer>
     </div>
   )

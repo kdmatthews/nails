@@ -12,7 +12,7 @@
     grid-template-areas: "left  middle right";
     grid-template-columns: 1fr 1fr 1fr;
     background-color: #f5e8e8;
-   padding: .2rem;
+   padding: .5rem;
     justify-content: center;
     text-align: center;
     align-items: center;
@@ -23,14 +23,13 @@
 
 .footer-middle{
     grid-area: middle;
+
 }
 
 .footer-right{
     grid-area: right;
-    display: flex;
-    align-items: center;
-    justify-content: end;
-    padding-right: 2rem;
+
+
 }
 
 .footer-container h3{
@@ -40,7 +39,7 @@
 }
 .logo-info img{
     width: 8rem;
-    margin: 1rem;
+
 }
 
 
@@ -49,7 +48,8 @@
     color: black;
     display: flex;
     flex-direction: column;
-    margin: .5rem;
+    margin: .3rem;
+
 }
 
 .links a:hover{
@@ -74,5 +74,18 @@
     .footer-right{
         margin: 1.5rem;
         padding-right: 0;
+    }
+}
+/*
+
+@media (min-width: 1200px) {
+    .footer-right{
+        padding-right: 10rem;
+    }
+}
+
+@media (min-width: 2800px) {
+    .footer-right{
+        padding-right: 20rem;
     }
 }

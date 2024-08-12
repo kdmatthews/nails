@@ -34,23 +34,26 @@
 }
 
 .about-words a{
-    background-color: #ddafb2;
-    border-radius: .5rem;
-    padding: .5rem;
+    background-color: #854B5B;
+    border:#854B5B 2px solid;
+    border-radius: .8rem;
+    padding: .8rem;
     text-decoration: none;
-    color: black;
+    color: white;
     display: block;
     margin: auto;
     width: 8rem;
     font-size: large;
     text-align: center;
     cursor: pointer;
-    color: #854B5B;
-    font-weight: 700;
+    font-weight: 550;
 }
 
+
+
 .about-words a:hover{
-    border: #854B5B 2px solid;
+    background-color: white;
+    color:#854B5B;
 }
 
 @media (max-width: 950px){
