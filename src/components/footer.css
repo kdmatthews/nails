@@ -59,10 +59,10 @@
 
 @media (max-width: 820px) {
     .footer-container{
-        display: grid;
-        grid-template-areas: "left"
-        "middle"
-        "right";
+        width: 100%;
+        display: flex;
+       flex-wrap: wrap;
+
     }
     .footer-right{
         margin: 1.5rem;
