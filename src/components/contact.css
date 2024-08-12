@@ -1,0 +1,60 @@
+.headings h1{
+    font-size: 50px;
+    color:#854B5B;
+    text-decoration: none;
+    padding-bottom: 10px;
+    border-bottom: 3px solid;
+    display: inline;
+    text-align: center;
+    text-shadow: 2px 2px 2px #ddafb2;
+}
+
+
+.form-field{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../contactpink.jpg);
+    background-size: cover;
+    padding: 2rem;
+    margin: 3rem;
+    border-radius: 10px;
+}
+.input-box{
+    padding: 0.5rem;
+    height: 2.3rem;
+    margin: .7rem;
+}
+
+.input-box input{
+    padding: .8rem;
+    border: #854B5B 1px solid;
+    border-radius: .8rem;
+}
+.input-box textarea{
+    padding: .8rem;
+    border: #854B5B 1px solid;
+    border-radius: .8rem;
+    height: 6rem;
+}
+
+.form-field button{
+    border: #854B5B 1px solid;
+    border-radius: .8rem;
+    background-color: #854B5B;
+    padding: .8rem;
+    color: white;
+    margin-top: 4.5rem;
+    font-size: large;
+}
+
+.form-field button:hover{
+    background-color: white;
+    color: #854B5B;
+}
+
+.form-field button:active {
+    background-color: aqua;
+}

@@ -11,14 +11,14 @@ export default function SimpleMap(){
     },
     zoom: 11
   };
-
-const apiKey = process.env.REACT_APP_NAILS_APP_API_Key
+{/*}
+const apiKey = process.env.REACT_APP_NAILS_APP_API_Key */}
 
   return (
     // Important! Always set the container height explicitly
     <div style={{ height: '275px', width: '275px' }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: {apiKey} }}
+        bootstrapURLKeys={{ key: "AIzaSyC-pz8RErYuTCEUAYHXlCWLyci7GwXMew8" }}
         defaultCenter={defaultProps.center}
         defaultZoom={defaultProps.zoom}
       >

@@ -5,21 +5,22 @@ function Contact() {
   return (
     <section className='contact'>
       <form action="">
+        <div className='headings'>
         <h1>Contact Us</h1>
+        </div>
+        <div className='form-field'>
         <div className='input-box'>
-          <label htmlFor="">Full Name</label>
-          <input type="text" className='field' placeholder='Enter your name' required />
+          <input type="text" className='field' placeholder='Name' required />
           <div className='input-box'></div>
         </div>
         <div className='input-box'>
-          <label htmlFor="">Email Adress</label>
-          <input type="email" className='field' placeholder='Enter your email' required />
+          <input type="email" className='field' placeholder='Email' required />
         </div>
         <div className='input-box'>
-          <label htmlFor="">Your Message</label>
-          <textarea placeholder='Enter your message' className='field-message' required></textarea>
+          <textarea placeholder='Message' className='field-message' required></textarea>
         </div>
         <button type="submit">Send Message</button>
+        </div>
       </form>
     </section>
   )
